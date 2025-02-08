@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="imagens/Html-Html5.16.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Parágrafos e quebras de linha</h1>
+    <h1>Estudando HTML5</h1>
+    <h2>Parágrafos e quebras de linha</h2>
     <hr>
     <p>Os paragrafos não tem muito segredo 
         simplesmente escreva dentro da tag &lt;p&gt; <!--LESS THAN E GREATER THAN -->
@@ -16,7 +17,7 @@
 
     <p>Caso precise quebrar a linha apenas use o famoso "br" <br> <!--Não é correto adicionar vários "br" o css já cuida de posicionamento--> agora estou em outra linha</p>
 
-    <p>Adicionando simbolos ao código: <br>
+    <h2>Adicionando simbolos ao código: <br></h2>
         marca registrada: &reg; <br>
         copyright: &copy; <br>
         trade mark: &trade; <br>
@@ -39,13 +40,36 @@
         &#X1F560;
     </p>
 
-    <p>Adicionando imagens no código:</p>
+    <h2>Adicionando imagens no código:</h2>
     <img src="imagens/Html5-full.png" alt="Logo HTML5">
     <p>É possível adicionar imagens de um link externo:</p>
     <img src="https://stardewvalleywiki.com/mediawiki/images/5/52/Sam_Icon.png" alt="stardewvalleywiki">
     <p>Tudo certo aqui! </p>
 
-    <p>Adicionando icones de favorito em cima &uarr;</p>
+    <h2>Adicionando icones de favorito em cima &uarr;</h2>
     <!--Site para procurar icones icon archive e favicon.cc para desenhar icones e ainda o favicon.io-->
+
+    <h2>Hierarquia de títulos</h2>
+    <p>Os H1, H2, H3... são basicamente hierarquias de titulos, no qual a numeração indica o nivel de hierarquia do titulo adicionado portanto temos que o H1 é o maior nível, e os outros vindo abaixo dele. pose-se pensar que funciona como os titulos vendo frequentemente em livros, revistas e documentos acadêmicos.
+        É impotante falar que os níveis de hierarquia vão apenas até o nível seis, caso esteja ultrapassando essa hierarquia de níveis algo com certeza não está ocorrendo bem.
+    </p>
+    <!--É importante lembrar que alguns comandos usados no HTML4 estão obsoletos e não devem ser usados em HTML5 já que este se preocupa com a semântica do código, coisas relacionadas a forma são tratadas no CSS (W3C)-->
+
+    <h2>Principais Formatações</h2>
+
+    <h3>Negrito</h3>
+    <p>Nesta frase temos um <b>termo em destaque</b> usando a tag B</p> <!--Esta tag funciona e deixa o texto em destaque mas não adiciona signirficado, logo está mais relacionado a forma-->
+    <p>Nesta frase também temos um <strong>termo em destaque</strong> mas usamos a tag STRONG</p> <!--O STRONG diferentemente do B da significado ao termo mostrando que é um termo forte que se destaca-->
+
+    <h3>Itálico</h3>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag I</p> <!--Esta tag funciona e deixa o texto em itálico mas não adiciona signirficado, logo está mais relacionado a forma-->
+    <p>Nesta frase também temos um <em>termo em itálico</em> usando a tag EM</p> <!--O EM está relacionado a ENFÂSE-->
+
+    <h2>Formatações adicionais do HTML5</h2>
+    <p><mark>Marcação de texto</mark></p> <!--Pode-se usar o STYLE do CSS junto da tag MARK para mudar a cor do marcador-->
+    <p><del>Texto deletado</del></p>
+    <p><ins>Texto inserido</ins></p>
+    <p>Texto subrescrito x<sup>20</sup></p>
+    <p>Texto subscrito H<sub>2</sub>O</p>
 </body>
 </html>
